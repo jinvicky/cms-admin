@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+
+
 const nextConfig = {
   crossOrigin: "anonymous",
   reactStrictMode: false,
@@ -24,15 +26,6 @@ const nextConfig = {
         },
       ],
   },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/promotion',
-        permanent: true
-      }
-    ]
-  }
 };
 
 export default nextConfig;
