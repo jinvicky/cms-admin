@@ -33,7 +33,7 @@ export default function RootLayout({
               <AlertProvider>
                 <div className="flex">
                   <Sidebar />
-                  <div className="relative w-full h-full overflow-y-auto bg-gray-50 lg:ml-64 dark:bg-gray-900">
+                  <div className="relative w-full h-full lg:ml-64">
                     {children}
                   </div>
                 </div>
